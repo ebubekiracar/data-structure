@@ -1,10 +1,10 @@
 import java.io.*; 
 import java.util.*; 
- // Ebu Bekir Acar - Java Radix Short Veri Yapısı 
- // Radix Short ile Kelime Sıralama
+ // Ebu Bekir Acar - Java Radix Sort Veri Yapısı 
+ // Radix Sort ile Kelime Sıralama
 class RadixSort { 
   public static void main (String[] args) { 
-    String[] arr = {"ebu", "bekir", "acar","veri", "yapilari","github","radixshort"}; 
+    String[] arr = {"ebu", "bekir", "acar","veri", "yapilari","github","radixsort"}; 
     radixSort(arr,'a','z'); 
     for(int i=0;i<arr.length;i++){ 
       System.out.println(arr[i]); 
